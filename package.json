@@ -6,6 +6,8 @@
   },
   "dependencies": {
     "adm-zip": "^0.5.16",
+    "cli-table3": "^0.6.5",
+    "colors": "^1.4.0",
     "js-sha3": "^0.9.3",
     "node-fetch": "^3.3.2"
   }

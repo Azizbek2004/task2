@@ -1,0 +1,2 @@
+const l=(a,b)=>{let m='';for(let i=0;i<a.length;i++)for(let j=i+1;j<=a.length;j++){let s=a.substring(i,j);if(b.includes(s)&&s.length>m.length)m=s;}return m;}
+const a=process.argv.slice(2);const r=a.reduce((x,y)=>l(x,y),a[0]||'');console.log(r);
